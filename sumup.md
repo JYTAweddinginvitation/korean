@@ -6,7 +6,7 @@ permalink: /sumup/
 
 
 <!-- Include the content from `about.md` -->
-{% include_relative _layouts/home.html %}
+{% include_relative ../_layouts/home.html %}
 
 ---
 
@@ -26,5 +26,5 @@ permalink: /sumup/
 ---
 
 <!-- Include the content from `contact.md` -->
-{% include_relative _layouts/contact.html %}
+{% include_relative ../_layouts/contact.html %}
 
