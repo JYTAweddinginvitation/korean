@@ -19,7 +19,7 @@ permalink: /sumup/
 
 <!-- Home Section -->
 <section id="home">
-    {% include_relative ../_layouts/home.html %}
+    {% include home.html %}
 </section>
 
 ---
@@ -47,5 +47,5 @@ permalink: /sumup/
 
 <!-- Contact Section -->
 <section id="contact">
-    {% include_relative ../_layouts/contact.html %}
+    {% include contact.html %}
 </section>
