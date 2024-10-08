@@ -30,7 +30,7 @@ title: Junyoung + Thuc Anh
         .container {
             margin: 0 auto;
             max-width: 480px; /* Limit width to 480px on larger screens */
-            padding: 0 0px;
+            padding: 0 1px;
         }
     }
 
@@ -38,7 +38,7 @@ title: Junyoung + Thuc Anh
     @media (max-width: 480px) {
         .container {
             width: 100%; /* Use full width for small devices */
-            padding: 0 0px; /* Add padding so it doesn’t touch edges */
+            padding: 0 1px; /* Add padding so it doesn’t touch edges */
         }
     }
 
