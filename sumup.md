@@ -25,5 +25,5 @@ title: Combined Page
 ---
 
 <!-- Include the content from `contact.md` -->
-{% include_relative contact.md %}
+{% include_relative _layouts/contact.html %}
 
