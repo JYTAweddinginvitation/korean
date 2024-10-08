@@ -1,30 +1,51 @@
 ---
 layout: description
-title: sumup
+title: Sumup
 permalink: /sumup/
 ---
 
+<!-- Sticky Header with Navigation Links -->
+<header class="sticky-header">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<!-- Include the content from `about.md` -->
-{% include_relative ../_layouts/home.html %}
+<!-- Home Section -->
+<section id="home">
+    {% include_relative ../_layouts/home.html %}
+</section>
 
 ---
 
-<!-- Include the content from `about.md` -->
-{% include_relative about.md %}
+<!-- About Section -->
+<section id="about">
+    {% include_relative about.md %}
+</section>
 
 ---
 
-<!-- Include the content from `gallery.md` -->
-{% include_relative gallery.md %}
+<!-- Gallery Section -->
+<section id="gallery">
+    {% include_relative gallery.md %}
+</section>
 
 ---
 
-<!-- Include the content from `location.md` -->
-{% include_relative location.md %}
+<!-- Location Section -->
+<section id="location">
+    {% include_relative location.md %}
+</section>
 
 ---
 
-<!-- Include the content from `contact.md` -->
-{% include_relative ../_layouts/contact.html %}
-
+<!-- Contact Section -->
+<section id="contact">
+    {% include_relative ../_layouts/contact.html %}
+</section>
