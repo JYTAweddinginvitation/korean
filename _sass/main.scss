@@ -414,3 +414,52 @@ div.highlight {
 .remittance-button:hover {
   opacity: 0.8;
 }
+
+<style>
+    /* Basic styles for the sticky header */
+    .sticky-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333; /* Dark background */
+        padding: 10px 0;
+        z-index: 1000; /* Keep it on top of other elements */
+    }
+
+    /* Styling the navigation list */
+    .sticky-header nav ul {
+        display: flex;
+        justify-content: center; /* Center the navigation items */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sticky-header nav ul li {
+        margin: 0 15px;
+    }
+
+    .sticky-header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px;
+        transition: color 0.3s;
+    }
+
+    .sticky-header nav ul li a:hover {
+        color: #f0f0f0; /* Lighter color on hover */
+    }
+
+    /* Ensure that the page content does not hide behind the sticky header */
+    section {
+        margin-top: 60px; /* Space to prevent content from being hidden by the header */
+        padding: 20px;
+    }
+
+    /* Optional: Add smooth scrolling */
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
