@@ -4,9 +4,10 @@ title: sumup
 permalink: /sumup/
 ---
 
----
-layout: description
-title: Combined Page
+
+<!-- Include the content from `about.md` -->
+{% include_relative _layouts/home.html %}
+
 ---
 
 <!-- Include the content from `about.md` -->
