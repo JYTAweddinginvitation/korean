@@ -368,7 +368,7 @@ title: Junyoung + Thuc Anh
 
     <!-- Location Section -->
     <section id="location">
-        {% include_relative location.md %}
+
     </section>
 
     ---
