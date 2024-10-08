@@ -415,19 +415,19 @@ div.highlight {
   opacity: 0.8;
 }
 
-// Sticky Header Styles (Moved from inline CSS)
+// Sticky Header Styles (Fixed)
 .sticky-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: white; /* Dark background */
+  background-color: white; 
   padding: 10px 0;
-  z-index: 1000; /* Keep it on top of other elements */
+  z-index: 1000; 
 
   nav ul {
     display: flex;
-    justify-content: center; /* Center the navigation items */
+    justify-content: center; 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -443,14 +443,12 @@ div.highlight {
     font-weight: bold;
     padding: 10px;
     transition: color 0.3s;
-
-    }
   }
 }
 
 // Ensure the page content does not hide behind the sticky header
 section {
-  margin-top: 60px; /* Space to prevent content from being hidden by the header */
+  margin-top: 60px; 
   padding: 20px;
 }
 
