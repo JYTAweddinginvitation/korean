@@ -1,8 +1,9 @@
 ---
-layout: description
-title: Sumup
-permalink: /sumup/
+layout: home
+home_text: request the pleasure of your company to celebrate our marriage
+title: Junyoung + Thuc Anh
 ---
+
 
 <!-- Sticky Header with Navigation Links -->
 <header class="sticky-header">
