@@ -434,7 +434,7 @@ div.highlight {
   }
 
   nav ul li {
-    margin: 0 15px;
+    margin: 0 10px;
   }
 
   nav ul li a {
@@ -444,8 +444,6 @@ div.highlight {
     padding: 10px;
     transition: color 0.3s;
 
-    &:hover {
-      color: #f0f0f0; /* Lighter color on hover */
     }
   }
 }
