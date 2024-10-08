@@ -25,19 +25,19 @@ permalink: /sumup/
     }
 
     /* Only apply max-width for larger screens (desktops) */
-    @media (min-width: 1441px) {
+    @media (min-width: 481px) {
         .container {
             margin: 0 auto;
-            max-width: 1440px; /* Limit width to 480px on larger screens */
-            padding: 0 10px;
+            max-width: 480px; /* Limit width to 480px on larger screens */
+            padding: 0 0px;
         }
     }
 
     /* Make sure smaller screens (phones) use full width */
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
         .container {
             width: 100%; /* Use full width for small devices */
-            padding: 0 10px; /* Add padding so it doesn’t touch edges */
+            padding: 0 0px; /* Add padding so it doesn’t touch edges */
         }
     }
 
