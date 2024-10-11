@@ -26,7 +26,7 @@ title: Junyoung + Thuc Anh
     }
 
     /* Only apply max-width for larger screens (desktops) */
-    @media (min-width: 481px) {
+    @media (min-width: 480px) {
         .container {
             margin: 0 auto;
             max-width: 480px; /* Limit width to 480px on larger screens */
@@ -47,9 +47,9 @@ title: Junyoung + Thuc Anh
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 50%;
         background-color: white;
-        padding: 10px 0;
+        padding: 0px 0;
         z-index: 1000;
     }
 
@@ -516,17 +516,6 @@ title: Junyoung + Thuc Anh
 
         .contact-item a img:hover {
             opacity: 0.8; /* Add a hover effect to icons */
-        }
-
-        /* Responsive font adjustment */
-        @media (max-width: 768px) {
-            .remittance-button {
-                font-size: 12px; /* Reduce font size on smaller screens */
-            }
-
-            .thank-you-image {
-                width: 200px; /* Adjust width for smaller screens */
-            }
         }
     </style>
 </head>
