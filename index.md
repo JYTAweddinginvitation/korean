@@ -23,6 +23,8 @@ title: Junyoung + Thuc Anh
         {% include home.html %}
     </section>
 
+  <hr>
+
     <!-- About Section -->
     <section id="about">
         <h2 style="text-align: center;">About</h2>
@@ -51,11 +53,15 @@ title: Junyoung + Thuc Anh
         </div>
     </section>
 
+  <hr>
+
     <!-- Gallery Section -->
     <section id="gallery">
         <h2 style="text-align: center;">Gallery</h2>
         {% include_relative gallery.md %}
     </section>
+
+  <hr>
 
     <!-- Location Section -->
     <section id="location">
@@ -83,6 +89,8 @@ title: Junyoung + Thuc Anh
             console.log("Join us at La Vela Hotel on January 11, 2025, at 7 PM for a day to remember");
         </script>
     </section>
+
+  <hr>
 
     <!-- Contact Section -->
     <section id="contact">
