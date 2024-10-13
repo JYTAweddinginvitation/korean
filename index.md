@@ -40,7 +40,7 @@ title: Junyoung + Thuc Anh
       <p></p>
     <p>at <strong>Seven o'clock</strong></p>
       <p></p>
-    <p>at <strong><a href="{{ '/location/' | relative_url }}">La Vela Saigon</a></strong></p>
+    <p>at <strong><a href="#location">La Vela Saigon</a></strong></p>
       <p></p>
     <p>5th floor, Jupiter Hall</p>
       <p></p>
