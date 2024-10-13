@@ -87,13 +87,15 @@
         }
 
         /* Icon styling */
-        .contact-item a img {
-            width: 40px;
+        .contact-item a img,
+        .family-item a img { /* Apply same size for both contact and family icons */
+            width: 40px; /* Icon size */
             margin-right: 10px;
             transition: opacity 0.3s ease;
         }
 
-        .contact-item a img:hover {
+        .contact-item a img:hover,
+        .family-item a img:hover {
             opacity: 0.8;
         }
 
