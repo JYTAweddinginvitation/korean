@@ -10,27 +10,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
-      - uses: actions/cache@v3
+
+      # Install Ruby version >= 3.0.0
+      - name: Set up Ruby 3.x
+        uses: ruby/setup-ruby@v1
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-            
-      - name: Install Bundler 2.4.22 locally
+          ruby-version: 3.2.0 # or a later version
+      
+      # Install Bundler version 2.4.22
+      - name: Install Bundler
         run: gem install bundler -v 2.4.22 --user-install
 
+      # Add Bundler to PATH
       - name: Add Bundler to PATH
         run: echo "$(ruby -e 'print Gem.user_dir')/bin" >> $GITHUB_PATH
 
-      - name: Install dependencies locally
+      - name: Install dependencies
         run: bundle install --path vendor/bundle
-        
+
       - uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
           provider: 'github'
           token: ${{ secrets.GITHUB_TOKEN }}
           jekyll_baseurl: 'dev-portfolio-blog'
-          pre_build_commands: pacman -S --noconfirm nodejs npm
           branch: 'sample-site'
