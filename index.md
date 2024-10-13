@@ -56,17 +56,10 @@ title: Junyoung + Thuc Anh
 
     ---
 
-
-    <section id="gallery">
-
-</head>
-
-<body>
-    <section class="gallery line" id="gallery">
-        <div class="area gallery-container">
-            <!-- First row with blank spaces and small picture -->
-            <div class="blank-gallery-item"></div> <!-- Blank space on the left -->
-            <div class="gallery-item">
+<section id="gallery">
+  <div class="gallery-container">
+    <div class="blank-gallery-item"></div>
+    <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
                         <a href="{{ '/img/gallery.JPG' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
@@ -267,10 +260,6 @@ title: Junyoung + Thuc Anh
                 </figure>
             </div>
 
-            <!-- Add more gallery items as needed -->
-        </div>
-    </section>
-</body>
     </section>
 
     ---
