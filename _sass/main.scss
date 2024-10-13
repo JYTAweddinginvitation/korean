@@ -465,7 +465,7 @@ html {
     left: 0;
     width: 100%; /* Full width */
     background-color: white;
-    padding: 10px 0;
+    padding: 5px 0; /* Reduce padding */
     z-index: 1000;
     text-align: center;
 }
@@ -481,14 +481,14 @@ html {
 }
 
 .sticky-header nav ul li {
-    margin: 0 10px; /* Adjust margin for spacing */
+    margin: 0 5px; /* Reduce margin */
 }
 
 .sticky-header nav ul li a {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px; /* Reduce padding */
     transition: color 0.3s;
 }
 
@@ -504,7 +504,7 @@ section {
 /* Responsive adjustments for smaller screens */
 @media (max-width: 480px) {
     .sticky-header nav ul li {
-        margin: 0 5px; /* Reduce margin for smaller screens */
+        margin: 0 2px; /* Further reduce margin for smaller screens */
     }
 
     .sticky-header nav ul li a {
