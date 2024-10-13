@@ -489,11 +489,10 @@ html {
     text-decoration: none;
     font-weight: bold;
     padding: 5px; /* Reduce padding */
-    transition: color 0.3s;
 }
 
 .sticky-header nav ul li a:hover {
-    color: #f0f0f0;
+    color: #f0f0f0; /* Keep the hover color if needed, but remove transition */
 }
 
 /* Add spacing to prevent content from being hidden by the sticky header */
