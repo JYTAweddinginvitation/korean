@@ -23,6 +23,7 @@
             background: rgba(0, 0, 0, 0.7); /* Dim background effect */
             justify-content: center;
             align-items: center;
+            z-index: 1000; /* Make sure popups are above other content */
         }
 
         .popup-content {
@@ -231,8 +232,33 @@
         </div>
     </div>
 
-    <!-- Other popups... -->
-    
+    <div class="account-popup" data-idx="2">
+        <div class="popup-content">
+            <h3>Bride's Account Number</h3>
+            <p class="account-number" id="bride-account">우리은행 1002035203849</p>
+            <button class="copy-button" data-account="bride-account">Copy</button>
+            <button class="close-popup">Close</button>
+        </div>
+    </div>
+
+    <div class="account-popup" data-idx="3">
+        <div class="popup-content">
+            <h3>Groom's Family's Account Number</h3>
+            <p class="account-number" id="kimjejung_account">농협 84512322040</p>
+            <button class="copy-button" data-account="kimjejung_account">Copy</button>
+            <button class="close-popup">Close</button>
+        </div>
+    </div>
+
+    <div class="account-popup" data-idx="4">
+        <div class="popup-content">
+            <h3>Bride's Family's Account number</h3>
+            <p class="account-number" id="bride-family-account">우리은행 1002035203849</p>
+            <button class="copy-button" data-account="bride-family-account">Copy</button>
+            <button class="close-popup">Close</button>
+        </div>
+    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const remittanceButtons = document.querySelectorAll('.remittance-button');
