@@ -51,7 +51,7 @@ title: Junyoung + Thuc Anh
             <p></p>
             <p>축복해주시면 감사하겠습니다</p>
             <p></p>
-            <p>장소 : La Vela Saigon</p>
+            <p>장소 : <strong><a href="#location">La Vela Saigon</a></strong></p>
             <p></p>
             <p>시간 : 2025년 1월 11일 토요일, 오후 7시</p>
             <p></p>
