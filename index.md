@@ -102,7 +102,7 @@ title: Junyoung + Thuc Anh
    <hr>
 <!-- Add this after the last <hr> -->
 <section id="language-selection">
-    <h2 style="text-align: center;">Choose Your Language</h2>
+    <h3 style="text-align: center;">Language</h3>
     <div style="text-align: center;">
         <a href="https://jytaweddinginvitation.github.io/homepagekr/">">
             <img src="/homepage/img/kr.JPG" alt="Korean Language" style="width: 35px; height: 35px; margin-right: 10px;">
