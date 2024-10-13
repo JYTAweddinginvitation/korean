@@ -4,6 +4,13 @@
 
     <!-- Gallery Styles -->
     <style>
+        /* Apply max-width to the body to constrain the layout */
+        body {
+            margin: 0 auto;
+            max-width: 480px; /* Set the maximum width to 480px */
+            padding: 0 0px; /* Add padding to prevent content from touching edges */
+        }
+
         .gallery-container {
             display: flex;
             flex-wrap: wrap;
