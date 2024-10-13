@@ -381,7 +381,4 @@ title: Junyoung + Thuc Anh
             });
         });
     </script>
-</body>
-</html>
-    </section>
 </div>
