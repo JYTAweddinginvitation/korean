@@ -55,7 +55,7 @@ title: Junyoung + Thuc Anh
     </section>
     
 <section id="home">
-    {% include gallery.md %}
+    {% include_relative gallery.md %}
 </section>
 
     ---
