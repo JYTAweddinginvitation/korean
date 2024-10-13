@@ -56,10 +56,66 @@ title: Junyoung + Thuc Anh
 
     ---
 
-<section id="gallery">
-  <div class="gallery-container">
-    <div class="blank-gallery-item"></div>
-    <div class="gallery-item">
+    <!-- Gallery Section -->
+    <section id="gallery">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <!-- Gallery Styles -->
+    <style>
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery-item {
+            width: calc(33.333% - 10px);
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .gallery-item figure {
+            margin: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .gallery-item .thumb-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+
+        /* Blank placeholder for centering */
+        .blank-gallery-item {
+            width: calc(33.333% - 10px);
+            margin-bottom: 15px;
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="gallery line" id="gallery">
+        <div class="area gallery-container">
+            <!-- First row with blank spaces and small picture -->
+            <div class="blank-gallery-item"></div> <!-- Blank space on the left -->
+            <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
                         <a href="{{ '/img/gallery.JPG' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
@@ -260,6 +316,10 @@ title: Junyoung + Thuc Anh
                 </figure>
             </div>
 
+            <!-- Add more gallery items as needed -->
+        </div>
+    </section>
+</body>
     </section>
 
     ---
