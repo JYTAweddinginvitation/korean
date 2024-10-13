@@ -64,51 +64,6 @@ title: Junyoung + Thuc Anh
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
 
-    <!-- Gallery Styles -->
-    <style>
-        .gallery-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .gallery-item {
-            width: calc(33.333% - 10px);
-            margin-bottom: 15px;
-            position: relative;
-        }
-
-        .gallery-item figure {
-            margin: 0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .gallery-item .thumb-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 100%;
-            overflow: hidden;
-        }
-
-        .gallery-item img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            cursor: pointer;
-        }
-
-        /* Blank placeholder for centering */
-        .blank-gallery-item {
-            width: calc(33.333% - 10px);
-            margin-bottom: 15px;
-            visibility: hidden;
-        }
-    </style>
-
 </head>
 
 <body>
