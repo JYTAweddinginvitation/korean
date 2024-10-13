@@ -100,12 +100,6 @@ title: Junyoung + Thuc Anh
             cursor: pointer;
         }
 
-        /* Blank placeholder for centering */
-        .blank-gallery-item {
-            width: calc(33.333% - 10px);
-            margin-bottom: 15px;
-            visibility: hidden;
-        }
     </style>
 
 </head>
