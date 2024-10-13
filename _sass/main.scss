@@ -515,12 +515,13 @@ section {
 /* Gallery Styles */
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 10px;
+  max-width: 480px;
+  margin: 0 auto;
 }
 
 .gallery-item {
-  margin-bottom: 15px;
   position: relative;
 }
 
@@ -550,17 +551,4 @@ section {
 /* Blank placeholder for centering */
 .blank-gallery-item {
   visibility: hidden;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .gallery-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery-container {
-    grid-template-columns: 1fr;
-  }
 }
