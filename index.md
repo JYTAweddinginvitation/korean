@@ -18,57 +18,6 @@ title: Junyoung + Thuc Anh
     </nav>
 </header>
 
-<!-- Inline CSS to force max-width only on larger screens -->
-<style>
-/* Sticky Header Styles */
-.sticky-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; /* Full width */
-    background-color: white;
-    padding: 10px 0;
-    z-index: 1000;
-    text-align: center;
-}
-
-.sticky-header nav ul {
-    display: flex;
-    justify-content: center; /* Center the navigation links */
-    flex-wrap: wrap; /* Allow wrapping to next line if needed */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.sticky-header nav ul li {
-    margin: 5px 10px; /* Add some margin for spacing */
-}
-
-.sticky-header nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    transition: color 0.3s;
-}
-
-.sticky-header nav ul li a:hover {
-    color: #f0f0f0;
-}
-
-/* Add spacing to prevent content from being hidden by the sticky header */
-section {
-    margin-top: 60px;
-}
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 480px) {
-    .sticky-header nav ul {
-        flex-direction: column; /* Stack links vertically on small screens */
-    }
-}
-</style>
 
 <div class="container">
     <!-- Home Section -->
