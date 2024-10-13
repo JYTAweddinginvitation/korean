@@ -62,7 +62,6 @@ title: Junyoung + Thuc Anh
 
     <!-- Location Section -->
     <section id="location">
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
