@@ -100,6 +100,22 @@ title: Junyoung + Thuc Anh
 
 
    <hr>
+<!-- Add this after the last <hr> -->
+<section id="language-selection">
+    <h2 style="text-align: center;">Choose Your Language</h2>
+    <div style="text-align: center;">
+        <a href="https://example.com/kr">
+            <img src="/img/kr.JPG" alt="Korean Language" style="width: 35px; height: 35px; margin-right: 10px;">
+        </a>
+        <a href="https://example.com/en">
+            <img src="/img/eng.JPG" alt="English Language" style="width: 35px; height: 35px; margin-right: 10px;">
+        </a>
+        <a href="https://example.com/vn">
+            <img src="/img/vn.JPG" alt="Vietnamese Language" style="width: 35px; height: 35px;">
+        </a>
+    </div>
+</section>
+   
 </div>
 
 <!-- Additional Styling -->
