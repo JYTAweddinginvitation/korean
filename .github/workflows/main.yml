@@ -3,7 +3,7 @@ name: Build and deploy this site to GitHub Pages
 on:
   push:
     branches:
-      - master 
+      - master
 
 jobs:
   github-pages:
@@ -15,16 +15,13 @@ jobs:
       - name: Set up Ruby 3.x
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.0 # or a later version
-      
+          ruby-version: 3.2.0  # Or a later version if needed
+
       # Install Bundler version 2.4.22
       - name: Install Bundler
-        run: gem install bundler -v 2.4.22 --user-install
+        run: gem install bundler -v 2.4.22
 
-      # Add Bundler to PATH
-      - name: Add Bundler to PATH
-        run: echo "$(ruby -e 'print Gem.user_dir')/bin" >> $GITHUB_PATH
-
+      # Install dependencies
       - name: Install dependencies
         run: bundle install --path vendor/bundle
 
