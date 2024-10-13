@@ -389,13 +389,13 @@ div.highlight {
     text-decoration: none;
     font-weight: bold;
     padding: 5px; /* Reduce padding inside links */
-    font-size: 20px; /* Reduce font size */
+    font-size: 18px; /* Reduce font size */
     transition: color 0.3s;
   }
 
   @include mediaQuery(phone-width) {
     nav ul li a {
-      font-size: 12px; /* Even smaller font size on mobile */
+      font-size: 18px; /* Even smaller font size on mobile */
     }
   }
 }
