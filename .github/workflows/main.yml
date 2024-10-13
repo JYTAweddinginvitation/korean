@@ -10,12 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
       - uses: actions/cache@v3
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
+            
+      # Install the correct version of Bundler
+      - name: Install Bundler 2.4.22
+        run: gem install bundler -v 2.4.22
+
+      - name: Install dependencies
+        run: bundle install
+
       - uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
           provider: 'github'
