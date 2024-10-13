@@ -8,7 +8,7 @@ title: Junyoung + Thuc Anh
 <header class="sticky-header">
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#home">홈</a></li>
             <li><a href="#about">초대장</a></li>
             <li><a href="#gallery">갤러리</a></li>
             <li><a href="#location">오시는곳</a></li>
