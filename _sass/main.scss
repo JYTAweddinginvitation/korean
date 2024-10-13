@@ -22,6 +22,9 @@ body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   transition: background 0.1s ease-in, color 0.1s ease-in;
+  margin: 0 auto;
+  max-width: 480px; /* Ensure content is limited to 480px */
+  padding: 0 10px; /* Add padding to prevent content from touching edges */
 }
 
 .mid-section-home {
@@ -46,7 +49,7 @@ body {
   h1 {
     font-size: 20px;
     font-weight: 600;
-    line-height: 1.2; // Adjust this value to control line spacing
+    line-height: 1.2;
   }
 }
 
@@ -100,16 +103,12 @@ body {
 }
 
 .mid-section-cover {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 50px;
 
   @include mediaQuery(tablet-width) {
-    width: 70%;
-  }
-
-  @include mediaQuery(phone-width) {
-    width: 95%;
+    width: 100%;
   }
 
   nav {
@@ -278,7 +277,7 @@ div.highlight {
 }
 
 .account-popup {
-  display: none; /* Hide popups by default */
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -313,7 +312,7 @@ div.highlight {
   background: #fff;
 
   .area {
-    padding: 0% 0%;
+    padding: 0% 0%; /* Ensure no padding in the gallery area */
   }
 }
 
@@ -338,58 +337,6 @@ div.highlight {
   }
 }
 
-/* 갤러리 타입02 */
-.gallery_type02 {
-  text-align: center;
-
-  li {
-    margin-bottom: 10px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    img {
-      max-width: 100%;
-    }
-  }
-}
-
-/* 갤러리 타입03 */
-.gallery_type03 {
-  text-align: center;
-
-  .gallery-top {
-    .swiper-slide {
-      img {
-        width: 100%;
-      }
-    }
-  }
-
-  .gallery-thumbs {
-    .swiper-slide {
-      height: 150px;
-      overflow: hidden;
-
-      img {
-        // Add any styles needed for the images in gallery-thumbs
-      }
-    }
-  }
-
-  .swiper-slide-thumb-active {
-    border: 1px solid #757575;
-    box-sizing: border-box;
-  }
-
-  .swiper-button-next.swiper-button-white,
-  .swiper-button-prev.swiper-button-white {
-    --swiper-navigation-color: #333;
-  }
-}
-
-/* Contact and Family Sections */
 .contact-grid, .family-grid, .remittance-grid {
   display: flex;
   justify-content: space-around;
@@ -421,13 +368,13 @@ div.highlight {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: white; 
+  background-color: white;
   padding: 10px 0;
-  z-index: 1000; 
+  z-index: 1000;
 
   nav ul {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -446,67 +393,11 @@ div.highlight {
   }
 }
 
-// Ensure the page content does not hide behind the sticky header
 section {
-  margin-top: 60px; 
-  padding: 20px;
+  margin-top: 60px;
+  padding: 0px; /* Ensure no additional padding */
 }
 
-// Optional: Add smooth scrolling for links
 html {
   scroll-behavior: smooth;
-}
-
-
-/* Sticky Header Styles */
-.sticky-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; /* Full width */
-    background-color: white;
-    padding: 5px 0; /* Reduce padding */
-    z-index: 1000;
-    text-align: center;
-}
-
-.sticky-header nav ul {
-    display: flex;
-    justify-content: center; /* Center the navigation links */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow-x: auto; /* Allow horizontal scrolling */
-    white-space: nowrap; /* Prevent wrapping */
-}
-
-.sticky-header nav ul li {
-    margin: 0 5px; /* Reduce margin */
-}
-
-.sticky-header nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 5px; /* Reduce padding */
-}
-
-.sticky-header nav ul li a:hover {
-    color: #f0f0f0; /* Keep the hover color if needed, but remove transition */
-}
-
-/* Add spacing to prevent content from being hidden by the sticky header */
-section {
-    margin-top: 60px;
-}
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 480px) {
-    .sticky-header nav ul li {
-        margin: 0 2px; /* Further reduce margin for smaller screens */
-    }
-
-    .sticky-header nav ul li a {
-        font-size: 14px; /* Reduce font size for smaller screens */
-    }
 }
