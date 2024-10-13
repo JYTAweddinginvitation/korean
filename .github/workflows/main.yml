@@ -18,9 +18,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
             
-      # Install the correct version of Bundler
-      - name: Install Bundler 2.4.22
-        run: gem install bundler -v 2.4.22
+      # Install the correct version of Bundler locally for the user
+      - name: Install Bundler 2.4.22 locally
+        run: gem install bundler -v 2.4.22 --user-install
+
+      # Ensure that the locally installed Bundler is used
+      - name: Add Bundler to PATH
+        run: echo "::add-path::$(ruby -e 'print Gem.user_dir')/bin"
 
       - name: Install dependencies
         run: bundle install
