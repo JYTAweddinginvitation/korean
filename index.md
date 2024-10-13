@@ -27,7 +27,7 @@ title: Junyoung + Thuc Anh
 
     <!-- About Section -->
     <section id="about">
-        <h2 style="text-align: center;">About</h2>
+        <h2 style="text-align: center;">초대장</h2>
         <div style="text-align: center;">
             <img src="{{'/img/about.jpeg' | relative_url }} " alt="img" style="width: 80%; max-width: 600px; height: auto;">
         </div>
