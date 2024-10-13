@@ -55,8 +55,8 @@ title: Junyoung + Thuc Anh
             <p></p>
             <p>시간 : 2025년 1월 11일 토요일, 오후 7시</p>
             <p></p>
-            <p></p>
-            <p></p>
+            <p> </p>
+            <p> </p>
             <p><strong>김제중·김희원</strong>의 차남 <strong>준영</strong> </p>
             <p></p>
             <p><strong>Luong Quoc Vinh·Nguyen Trong Anh Tuyet</strong>의 차녀 <strong>Thuc Anh</strong> </p>
