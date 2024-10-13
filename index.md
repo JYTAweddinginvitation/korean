@@ -97,6 +97,9 @@ title: Junyoung + Thuc Anh
         <h2 style="text-align: center;">Contact</h2>
         {% include contact.html %}   
     </section>
+
+
+   <hr>
 </div>
 
 <!-- Additional Styling -->
