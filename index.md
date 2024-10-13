@@ -20,33 +20,29 @@ title: Junyoung + Thuc Anh
 
 <!-- Inline CSS to force max-width only on larger screens -->
 <style>
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
 /* Sticky Header Styles */
 .sticky-header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Change to 100% to cover the full width */
+    width: 100%; /* Full width */
     background-color: white;
-    padding: 10px 0; /* Add padding for better spacing */
+    padding: 10px 0;
     z-index: 1000;
-    text-align: center; /* Center-align the contents */
+    text-align: center;
 }
 
 .sticky-header nav ul {
     display: flex;
     justify-content: center; /* Center the navigation links */
+    flex-wrap: wrap; /* Allow wrapping to next line if needed */
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 .sticky-header nav ul li {
-    margin: 0 15px;
+    margin: 5px 10px; /* Add some margin for spacing */
 }
 
 .sticky-header nav ul li a {
@@ -64,6 +60,13 @@ title: Junyoung + Thuc Anh
 /* Add spacing to prevent content from being hidden by the sticky header */
 section {
     margin-top: 60px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 480px) {
+    .sticky-header nav ul {
+        flex-direction: column; /* Stack links vertically on small screens */
+    }
 }
 </style>
 
