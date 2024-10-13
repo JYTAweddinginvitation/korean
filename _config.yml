@@ -1,6 +1,6 @@
 resume_url: "Resume.pdf"
 author_name: "Junyoung + Thuc Anh"
-url: https://jytaweddinginvitation.github.io/homepage/
+url: https://jytaweddinginvitation.github.io/
 
 plugins:
   - jekyll-seo-tag
