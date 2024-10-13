@@ -387,7 +387,7 @@ section {
 </head>
 <body>
     <div style="text-align: center;">
-        <img src="/mapimage.jpeg" alt="img" style="width: 80%; max-width: 600px; height: auto;">
+        <img src="homepage/mapimage.jpeg" alt="img" style="width: 80%; max-width: 600px; height: auto;">
     </div>
 
     <h3>LA VELA SAIGON HOTEL</h3>
