@@ -15,11 +15,11 @@ jobs:
       - name: Set up Ruby 3.x
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.0  # Or a later version if needed
+          ruby-version: 3.2.5  # Or a later version if needed
 
-      # Install Bundler version 2.4.22
+      # Install Bundler version 2.5.11
       - name: Install Bundler
-        run: gem install bundler -v 2.4.22
+        run: gem install bundler -v 2.5.11
 
       # Install dependencies
       - name: Install dependencies
