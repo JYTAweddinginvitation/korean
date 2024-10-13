@@ -104,13 +104,13 @@ title: Junyoung + Thuc Anh
 <section id="language-selection">
     <h3 style="text-align: center;">Language</h3>
     <div style="text-align: center;">
-        <a href="https://jytaweddinginvitation.github.io/homepagekr/">">
+        <a href="https://jytaweddinginvitation.github.io/homepagekr/">
             <img src="/homepage/img/kr.JPG" alt="Korean Language" style="width: 35px; height: 35px; margin-right: 10px;">
         </a>
-        <a href="https://jytaweddinginvitation.github.io/homepage/">">
+        <a href="https://jytaweddinginvitation.github.io/homepage/">
             <img src="/homepage/img/eng.JPG" alt="English Language" style="width: 35px; height: 35px; margin-right: 10px;">
         </a>
-        <a href="https://jytaweddinginvitation.github.io/homepagevn/">">
+        <a href="https://jytaweddinginvitation.github.io/homepagevn/">
             <img src="/homepage/img/vn.JPG" alt="Vietnamese Language" style="width: 35px; height: 35px;">
         </a>
     </div>
