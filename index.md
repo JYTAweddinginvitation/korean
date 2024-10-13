@@ -24,8 +24,7 @@ title: Junyoung + Thuc Anh
         {% include home.html %}
     </section>
 
-    ---
-
+    
     <!-- About Section -->
     <section id="about">
 <div style="text-align: center;">
@@ -57,8 +56,6 @@ title: Junyoung + Thuc Anh
 <section id="gallery">
     {% include_relative gallery.md %}
 </section>
-
-    ---
 
     <!-- Location Section -->
     <section id="location">
@@ -93,105 +90,9 @@ title: Junyoung + Thuc Anh
 </html>
     </section>
 
-    ---
-
     <!-- Contact Section -->
-    <section id="contact">
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wedding Invitation and Contact</title>
-    <meta name="format-detection" content="telephone=no"> <!-- Disable automatic link detection for numbers -->
-    <link rel="stylesheet" href="_sass/main.scss"> <!-- Link to your compiled CSS file -->
-    <style>
-        .account-popup {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.7); /* Dim background effect */
-            justify-content: center;
-            align-items: center;
-        }
 
-        .popup-content {
-            background: white;
-            padding: 20px;
-            border-radius: 5px;
-            text-align: center;
-            color: black;
-        }
-
-        .popup-content h3, .popup-content p.account-number {
-            color: black;
-        }
-
-        .popup-content button {
-            background-color: #f0f0f0;
-            color: black;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-
-        .popup-content button:hover {
-            background-color: #e0e0e0;
-        }
-
-        /* Style remittance buttons */
-        .remittance-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Creates a 2x2 layout */
-            grid-gap: 10px; /* Adds spacing between the buttons */
-            justify-content: center; /* Centers the grid */
-        }
-
-        .remittance-button {
-            padding: 10px 20px;
-            background-color: black; /* Set the button background to black */
-            color: white; /* Set text color to white */
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            text-align: center;
-            min-width: 150px; /* Ensure a consistent width */
-            font-size: 14px; /* Reduce the font size slightly */
-            transition: background-color 0.3s ease;
-        }
-
-        .remittance-button:hover {
-            background-color: #333; /* Darken slightly on hover */
-        }
-
-        /* Center and size the thank you image */
-        .thank-you-image {
-            display: block;
-            margin: 20px auto; /* Centers the image */
-            max-width: 100%; /* Ensures it doesn’t overflow the page */
-            width: 300px; /* You can adjust the width here */
-            height: auto; /* Maintain the aspect ratio */
-        }
-
-        /* Icon styling */
-        .contact-item a img {
-            width: 40px; /* Size of the icons */
-            margin-right: 10px;
-            transition: opacity 0.3s ease;
-        }
-
-        .contact-item a img:hover {
-            opacity: 0.8; /* Add a hover effect to icons */
-        }
-    </style>
-</head>
-<body>
 <section id="contact">
         {% include contact.html %}   
-
 </section>
 </div>
