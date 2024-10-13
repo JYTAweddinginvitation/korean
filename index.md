@@ -1,6 +1,6 @@
 ---
 layout: home
-home_text: request the pleasure of your company to celebrate our marriage
+home_text: 저희의 결혼식에 소중한 당신을 초대합니다
 title: Junyoung + Thuc Anh
 ---
 
