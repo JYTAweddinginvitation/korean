@@ -256,20 +256,3 @@ section {
   margin-top: 70px; /* Adjust margin to prevent content overlap */
   padding: 0;
 }
-
-/* Ensure there's a gap around the <hr> element */
-hr {
-    margin-top: 20px;  /* Adds space above the <hr> */
-    margin-bottom: 20px; /* Adds space below the <hr> */
-    border: none; /* Removes any default borders */
-    border-top: 1px solid #ccc; /* Adds a simple solid line */
-    width: 100%; /* Ensures the line stretches across the full width */
-}
-
-/* For larger screens (laptops) */
-@media (min-width: 768px) {
-    hr {
-        margin-top: 40px;  /* Larger gap on top */
-        margin-bottom: 40px;  /* Larger gap on the bottom */
-    }
-}
