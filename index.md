@@ -52,7 +52,6 @@ title: Junyoung + Thuc Anh
             <p></p>
             <p>·</p>
             <p><strong>김제중·김희원</strong>의 차남 <strong>준영</strong> </p>
-            <p>·</p>
             <p><strong>르엉국빈·응우옌종안두윗</strong>의 차녀 <strong>툭안</strong> </p>
         </div>
     </section>
