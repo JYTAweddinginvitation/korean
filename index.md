@@ -92,7 +92,7 @@ title: Junyoung + Thuc Anh
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2 style="text-align: center;">마음 전하실 곳</h2>
+        <h2 style="text-align: center;">연락처</h2>
         {% include contact.html %}   
     </section>
 
