@@ -73,7 +73,9 @@ title: Junyoung + Thuc Anh
             <img src="/homepage/mapimage.jpeg" alt="img" style="width: 80%; max-width: 600px; height: auto;">
         </div>
 
-        <h3 style="text-align: center;">LA VELA SAIGON HOTEL 라벨라 호텔 사이공</h3>
+        <h3 style="text-align: center;">LA VELA SAIGON HOTEL</h3>
+        <h3 style="text-align: center;">라벨라 호텔 사이공</h3>
+
         <h4 style="text-align: center;">5층 Jupiter Hall 주피터 홀</h4>
 
         <p style="text-align: center;"><a href="tel:+8402836222280">전화번호 : +84 (0) 28 3622 2280</a></p>
