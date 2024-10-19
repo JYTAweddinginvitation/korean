@@ -64,7 +64,7 @@ title: Junyoung + Thuc Anh
             <p>장소 : <strong><a href="#location">La Vela Saigon</a></strong></p>
             <img src="/homepage/calender.jpg" alt="calender" style="width: 100%; max-width: 480px; height: auto; display: block; margin: 0 auto;">
             <p>시간 : 2025년 1월 11일 토요일, 오후 6시 30분</p>
-
+            <p>·</p>
         </div>
     </section>
 
