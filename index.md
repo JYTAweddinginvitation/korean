@@ -59,7 +59,7 @@ title: Junyoung + Thuc Anh
             <p>더없는 기쁨으로 간직하겠습니다.</p>
             <p>·</p>
             <p>장소 : <strong><a href="#location">La Vela Saigon</a></strong></p>
-            <p>시간 : 2025년 1월 11일 토요일, 오후 7시</p>
+            <p>시간 : 2025년 1월 11일 토요일, 오후 6시 30분</p>
             <p></p>
             <p>·</p>
             <p><strong>김제중·김희원</strong>의 차남 <strong>준영</strong> </p>
