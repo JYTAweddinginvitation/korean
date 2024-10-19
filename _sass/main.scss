@@ -10,11 +10,11 @@
   }
 }
 
-@font-face {
-  font-family: 'NotoSerifKR';
-  src: url('/fonts/NotoSerifKR-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
+/* Remove the @font-face block and use Google Fonts instead */
+
+/* Apply the custom font globally with !important */
+html, body {
+  font-family: 'Noto Serif KR', serif !important;
 }
 
 html {
@@ -23,13 +23,11 @@ html {
   --primary-highlight-color: #eeeeee;
   padding: 0;
   margin: 0;
-  font-family: 'NotoSerifKR', sans-serif; /* Apply the custom font globally */
 }
 
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  font-family: 'NotoSerifKR', sans-serif; /* Apply the custom font globally */
   transition: background 0.1s ease-in, color 0.1s ease-in;
   margin: 0 auto;
   max-width: 480px; /* Ensure content is limited to 480px */
@@ -59,7 +57,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
-    font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to headings */
+    font-family: 'Noto Serif KR', serif !important; /* Use Google Fonts */
   }
 }
 
@@ -92,7 +90,7 @@ body {
     a {
       text-decoration: none;
       color: var(--primary-text-color);
-      font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to links */
+      font-family: 'Noto Serif KR', serif !important; /* Use Google Fonts */
 
       &:hover {
         border-bottom: 2px solid var(--primary-text-color);
@@ -134,7 +132,7 @@ body {
       flex-grow: 2;
       text-align: left;
       margin: 10px;
-      font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to headings */
+      font-family: 'Noto Serif KR', serif !important; /* Use Google Fonts */
     }
 
     ul {
@@ -153,7 +151,7 @@ body {
         a {
           text-decoration: none;
           color: var(--primary-text-color);
-          font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to links */
+          font-family: 'Noto Serif KR', serif !important; /* Use Google Fonts */
 
           &:hover {
             border-bottom: 2px solid var(--primary-text-color);
@@ -194,7 +192,7 @@ body {
 
     a {
       color: var(--primary-text-color);
-      font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to links */
+      font-family: 'Noto Serif KR', serif !important; /* Use Google Fonts */
     }
   }
 }
@@ -229,7 +227,7 @@ body {
     text-decoration: none; /* No underline */
     padding: 3px 10px; /* Smaller padding for a compact design */
     font-size: 16px; /* Reduced font size */
-    font-family: 'NotoSerifKR', sans-serif; /* Apply custom font */
+    font-family: 'Noto Serif KR', serif !important; /* Use Google Fonts */
     transition: none; /* Completely remove any hover effect */
   }
 
