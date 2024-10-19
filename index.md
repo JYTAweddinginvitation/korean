@@ -62,7 +62,7 @@ title: Junyoung + Thuc Anh
             <p><strong>르엉국빈·응우옌종안두윗</strong>의 장녀 <strong>툭안</strong></p>
             <p>·</p>
             <p>장소 : <strong><a href="#location">La Vela Saigon</a></strong></p>
-            <img src="/homepage/calender.jpg" alt="calender" style="width: 80%; max-width: 480px; height: auto; display: block; margin: 0 auto;">
+            <img src="/homepage/calender.jpg" alt="calender" style="width: 100%; max-width: 480px; height: auto; display: block; margin: 0 auto;">
             <p>시간 : 2025년 1월 11일 토요일, 오후 6시 30분</p>
 
         </div>
