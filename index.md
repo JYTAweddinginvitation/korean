@@ -23,7 +23,7 @@ title: Junyoung + Thuc Anh
         {% include home.html %}
     </section>
 
-<hr style="margin-top: 40px;">
+<hr style="margin-top: 50px;">
 
     <!-- About Section -->
     <section id="about">
