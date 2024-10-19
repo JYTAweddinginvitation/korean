@@ -58,7 +58,6 @@ title: Junyoung + Thuc Anh
             <p>저희들의 새로운 여정에 함께해 주신다면</p>
             <p>더없는 기쁨으로 간직하겠습니다.</p>
             <p>·</p>
-            <p>·</p>
             <p><strong>김제중·김희원</strong>의 차남 <strong>준영</strong> </p>
             <p><strong>르엉국빈·응우옌종안두윗</strong>의 차녀 <strong>툭안</strong></p>
             <p>·</p>
