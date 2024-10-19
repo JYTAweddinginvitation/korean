@@ -58,15 +58,46 @@ title: Junyoung + Thuc Anh
             <p>저희들의 새로운 여정에 함께해 주신다면</p>
             <p>더없는 기쁨으로 간직하겠습니다.</p>
             <p>·</p>
-            <p>장소 : <strong><a href="#location">La Vela Saigon</a></strong></p>
-            <p>시간 : 2025년 1월 11일 토요일, 오후 6시 30분</p>
-            <p></p>
             <p>·</p>
             <p><strong>김제중·김희원</strong>의 차남 <strong>준영</strong> </p>
-            <p><strong>르엉국빈·응우옌종안두윗</strong>의 차녀 <strong>툭안</strong> </p>
+            <p><strong>르엉국빈·응우옌종안두윗</strong>의 차녀 <strong>툭안</strong></p>
+            <p>·</p>
+            <p>장소 : <strong><a href="#location">La Vela Saigon</a></strong></p>
+            <p>시간 : 2025년 1월 11일 토요일, 오후 6시 30분</p>
+            <img src="/homepage/calender.jpg" alt="calender" style="width: 420px; height: 420px; display: block; margin: 0 auto;">
+
         </div>
     </section>
 
+    <div class="countdown-container">
+        <p style="text-align: center;" id="countdown-message"></p>
+    </div>
+
+    <script>
+        // Function to calculate and update the days left or passed
+        function updateCountdown() {
+            const weddingDate = new Date("January 11, 2025").getTime();
+            const today = new Date().getTime();
+            const timeDifference = weddingDate - today;
+
+            const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+
+            let countdownMessage = "";
+            if (daysDifference > 0) {
+                countdownMessage = `준영, 안의 결혼식이 ${daysDifference}일 남았습니다`;
+            } else if (daysDifference === 0) {
+                countdownMessage = "오늘은 준영, 안의 결혼식입니다";
+            } else {
+                countdownMessage = `준영, 안의 결혼식이 ${Math.abs(daysDifference)}일 지났습니다`;
+            }
+
+            // Update the countdown display
+            document.getElementById("countdown-message").textContent = countdownMessage;
+        }
+
+        // Call the function to update the countdown
+        updateCountdown();
+    </script>
   <hr>
 
     <!-- Gallery Section -->
