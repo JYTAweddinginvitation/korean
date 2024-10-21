@@ -63,7 +63,7 @@ title: Junyoung + Thuc Anh
             <p>·</p>
             <p>장소 : <strong><a href="#location">La Vela Saigon</a></strong></p>
             <img src="/homepage/calender.jpg" alt="calender" style="width: 100%; max-width: 480px; height: auto; display: block; margin: 0 auto;">
-            <p>시간 : 2025년 1월 11일 토요일, 오후 6시 30분</p>
+            <p>시간 : 2025년 1월 18일 토요일, 오후 6시 30분</p>
             <p>·</p>
         </div>
     </section>
@@ -75,7 +75,7 @@ title: Junyoung + Thuc Anh
     <script>
         // Function to calculate and update the days left or passed
         function updateCountdown() {
-            const weddingDate = new Date("January 11, 2025").getTime();
+            const weddingDate = new Date("January 18, 2025").getTime();
             const today = new Date().getTime();
             const timeDifference = weddingDate - today;
 
@@ -142,20 +142,6 @@ title: Junyoung + Thuc Anh
 
    <hr>
 <!-- Add this after the last <hr> -->
-<section id="language-selection">
-    <h3 style="text-align: center;">Language</h3>
-    <div style="text-align: center;">
-        <a href="https://jytaweddinginvitation.github.io/homepagekr/">
-            <img src="/homepage/img/kr.JPG" alt="Korean Language" style="width: 35px; height: 35px; margin-right: 10px;">
-        </a>
-        <a href="https://jytaweddinginvitation.github.io/homepage/">
-            <img src="/homepage/img/eng.JPG" alt="English Language" style="width: 35px; height: 35px; margin-right: 10px;">
-        </a>
-        <a href="https://jytaweddinginvitation.github.io/homepagevn/">
-            <img src="/homepage/img/vn.JPG" alt="Vietnamese Language" style="width: 35px; height: 35px;">
-        </a>
-    </div>
-</section>
    
 </div>
 
